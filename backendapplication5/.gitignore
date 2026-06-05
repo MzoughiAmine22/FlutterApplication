@@ -1,0 +1,26 @@
+# Node.js backend ignores
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# dotenv (keep examples)
+.env
+.env.*
+!.env.example
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Build outputs
+build/
+dist/
+
+# Caches
+.cache/
+.parcel-cache/
+.turbo/
